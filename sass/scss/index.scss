@@ -1,0 +1,294 @@
+body{
+    li{
+    list-style-type: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    box-sizing: border-box;
+    
+}
+
+#logoParis{
+    width: 10rem;
+}
+
+header{
+    background-color: white;
+    opacity: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    font-family: MontserratVariable,Montserrat,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-bottom: 2px solid rgba(189, 189, 189, 0.965);
+    
+
+    .logonav{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch ;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+     /*    background-color: beige; */
+    }
+
+    li{
+        &:hover{
+            border-top: 4px solid black;
+    }
+
+         .icon-search{
+        background-color: rgba(189, 189, 189, 0.965);
+        padding: 0.5rem 1rem;
+                      }
+    
+    }
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1.5fr;
+    gap: 3rem;
+    font-family: MontserratVariable,Montserrat,sans-serif;
+
+    .article{
+        border-bottom: none;
+    }
+
+    img{
+        
+        &.image1{
+            display: block;
+            width: 60rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &.image2{
+            display: block;
+            width: 25rem;
+            margin-left: auto;
+            margin-right: auto;
+        } &.image3{
+            display: block;
+            width: 25rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+       
+
+    }
+
+
+    div{
+        &.navGauche{ 
+            border: 1px 1px gray;
+            text-align: center;
+            margin: 0;
+        }
+
+        #aLaUne{
+            background-color: red;
+            width: 4rem;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        #selection{
+            color: whitesmoke;
+            background-color: blue;
+            width: 4rem;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        #actualite{
+            color: whitesmoke;
+            background-color: blue;
+            width: 4rem;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+
+        li{
+            margin: 2rem;
+            padding: 1rem;
+
+        }
+        section{
+            border-bottom: 2px solid rgba(189, 189, 189, 0.965);
+        
+
+            li{
+                background-color: rgba(189, 189, 189, 0.965);
+            }
+           div{
+                a{
+                color: red;
+            }
+            }
+
+        }
+        nav{
+            li{
+                border-bottom: 2px solid rgba(189, 189, 189, 0.965);
+            }
+        }
+  
+    }
+
+    div{
+        &.colonne2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        #article2{
+            width: 30rem;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        #article3{
+            width: 30rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #titre1{
+            width: 40rem;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            position: relative;
+            bottom: 5rem;
+            padding: 0 20px;
+            #aLaUne{
+                position: relative;
+                bottom: 1rem;
+
+            }
+        }
+        .titre2{
+            width: 20rem;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            position: relative;
+            bottom: 3rem;
+            padding: 0 5px;
+            #selection{
+                position: relative;
+                bottom: 1rem;
+            }
+            #actualite{
+                position: relative;
+                bottom: 1rem;
+            }
+        }
+       
+    }
+    >div{ 
+        .colonneDroite{
+            display: flex;
+            flex-direction: row;
+            time{
+                font-size: 1.5rem;
+                margin-right: 1rem;
+            }
+        }
+    };
+}
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: MontserratVariable,Montserrat,sans-serif;
+
+     ul{    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            li{
+                padding: 1rem;
+            }
+
+        }
+
+
+
+
+    section{
+        &.sectionGauche{
+        background-color:rgba(189, 189, 189, 0.965) ;
+
+        div{
+            &#listeMaries{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+            align-items: stretch ;
+            font-family: MontserratVariable,Montserrat,sans-serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            border-top: 2px solid rgba(189, 189, 189, 0.965);
+            }
+            }
+        #footer2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            >div{
+                >a{
+                    color:red;
+                }
+            }
+        
+        }
+        #openData{
+            padding: 0 10rem;
+            border-left: 2px solid  gray;
+            border-right: 2px solid  gray;
+        }
+        
+        }
+
+   
+    }
+
+    .sectionDroite{
+        color: white;
+        background-color: black;
+        text-align: center;
+        a{
+            color: white;
+        }
+        >a{
+            color: red;
+        }
+        input[type="submit"]{
+            background-color: red;
+            color: white;
+        }
+
+       
+    }
+   
+}

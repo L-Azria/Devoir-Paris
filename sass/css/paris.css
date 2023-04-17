@@ -1,0 +1,228 @@
+body {
+  box-sizing: border-box;
+}
+body li {
+  list-style-type: none;
+}
+body a {
+  color: black;
+  text-decoration: none;
+}
+
+#logoParis {
+  width: 10rem;
+}
+
+header {
+  background-color: white;
+  opacity: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: MontserratVariable, Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-bottom: 2px solid rgba(189, 189, 189, 0.965);
+}
+header .logonav {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  /*    background-color: beige; */
+}
+header li:hover {
+  border-top: 4px solid black;
+}
+header li .icon-search {
+  background-color: rgba(189, 189, 189, 0.965);
+  padding: 0.5rem 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  gap: 3rem;
+  font-family: MontserratVariable, Montserrat, sans-serif;
+}
+main .article {
+  border-bottom: none;
+}
+main img.image1 {
+  display: block;
+  width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+main img.image2 {
+  display: block;
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+main img.image3 {
+  display: block;
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+main div.navGauche {
+  border: 1px 1px gray;
+  text-align: center;
+  margin: 0;
+}
+main div #aLaUne {
+  background-color: red;
+  width: 4rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+main div #selection {
+  color: whitesmoke;
+  background-color: blue;
+  width: 4rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+main div #actualite {
+  color: whitesmoke;
+  background-color: blue;
+  width: 4rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+main div li {
+  margin: 2rem;
+  padding: 1rem;
+}
+main div section {
+  border-bottom: 2px solid rgba(189, 189, 189, 0.965);
+}
+main div section li {
+  background-color: rgba(189, 189, 189, 0.965);
+}
+main div section div a {
+  color: red;
+}
+main div nav li {
+  border-bottom: 2px solid rgba(189, 189, 189, 0.965);
+}
+main div.colonne2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+main div #article2 {
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+main div #article3 {
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+main div #titre1 {
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: relative;
+  bottom: 5rem;
+  padding: 0 20px;
+}
+main div #titre1 #aLaUne {
+  position: relative;
+  bottom: 1rem;
+}
+main div .titre2 {
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: relative;
+  bottom: 3rem;
+  padding: 0 5px;
+}
+main div .titre2 #selection {
+  position: relative;
+  bottom: 1rem;
+}
+main div .titre2 #actualite {
+  position: relative;
+  bottom: 1rem;
+}
+main > div .colonneDroite {
+  display: flex;
+  flex-direction: row;
+}
+main > div .colonneDroite time {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: MontserratVariable, Montserrat, sans-serif;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer ul li {
+  padding: 1rem;
+}
+footer section.sectionGauche {
+  background-color: rgba(189, 189, 189, 0.965);
+}
+footer section.sectionGauche div#listeMaries {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: stretch;
+  font-family: MontserratVariable, Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-top: 2px solid rgba(189, 189, 189, 0.965);
+}
+footer section.sectionGauche #footer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer section.sectionGauche #footer2 > div > a {
+  color: red;
+}
+footer section.sectionGauche #openData {
+  padding: 0 10rem;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+footer .sectionDroite {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+footer .sectionDroite a {
+  color: white;
+}
+footer .sectionDroite > a {
+  color: red;
+}
+footer .sectionDroite input[type=submit] {
+  background-color: red;
+  color: white;
+}
+
+/*# sourceMappingURL=paris.css.map */
